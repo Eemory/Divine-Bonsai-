@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+}
+
+html,body {
+    height:100%;
+    background-color:aliceblue;
+}
+
+header {
+    display:block;
+    top:0%;
+    left:0%;
+    width:100%;
+    padding: 8px;
+    background-color:rgba(125, 194, 255, 0.459);
+    font-size:15px;
+}
+
+nav>ul {
+    display:inline;
+    padding:none;
+}
+
+nav>ul>li {
+    display:inline-block;
+    list-style:none;
+    margin:0 5px 0 5px;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-size:60px;
+    width:85%;
+    margin:0%;
+}
+
+article {
+    float: left;
+    padding:20px;
+    height:auto;
+}
+
+section::after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+p {
+    font-size:20px;
+}

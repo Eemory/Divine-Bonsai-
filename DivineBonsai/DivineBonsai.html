@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DivineBonsai</title>
+<link rel="stylesheet" href="DivineBonsai.css" type="text/css">
+</head>
+<body>
+
+<div class="banner">
+    <h1 id="bannerTitle">Divine Bonsai</h1>
+    <p>Find your new design!</p>
+</div>
+
+<button onclick=
+"document.location='DivineBonsaiHome.html'" 
+id="enterSite">Destiny Awaits You
+</button>
+
+<script>
+    const glow = document.querySelector("button");
+    glow.addEventListener('mouseover', function(e){
+        this.style.backgroundColor='white';
+        this.style.color='black';
+    })
+    glow.addEventListener('mouseout', function(e){
+        this.style.backgroundColor='';
+        this.style.color='';
+    })
+</script>
+</body>
+</html>

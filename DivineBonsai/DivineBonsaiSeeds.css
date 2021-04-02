@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+
+html, 
+body {
+    height: 100%;
+    background-color:aliceblue;
+}
+
+header {
+    display: block;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color:rgba(125, 194, 255, 0.459);
+    padding: 8px;
+}
+
+nav>ul {
+    display:inline;
+    padding:none;
+}
+
+nav>ul>li {
+    display:inline-block;
+    list-style:none;
+    margin:0 5px 0 5px;
+}
+
+.seed {
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: solid 1px lightgrey;
+    text-align:center;
+}
+
+h1 {
+    text-align:center;
+    font-size:45px;
+    text-decoration:underline;
+}

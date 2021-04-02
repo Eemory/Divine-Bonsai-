@@ -1,0 +1,31 @@
+* {
+    margin:0%;
+}
+
+body {
+    background-image: url(bonsai1.jpg);
+    background-position:center;
+    background-repeat: repeat;
+}
+
+.banner {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 3px black;
+}
+
+#enterSite {
+  position: absolute;
+  top: 65%;
+  bottom:35%;
+  left:40%;
+  right:60%;
+  width:200px;
+  height:35px;
+  padding:2px;
+  font-size:20px;
+  background-color:black;
+  color:rgba(255, 255, 255, 0.979);
+}
